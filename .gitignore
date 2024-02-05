@@ -1,2 +1,8 @@
-# 대용량 파일 무시 설정
-.terraform/providers/registry.terraform.io/hashicorp/aws/5.35.0/darwin_arm64/terraform-provider-aws_v5.35.0_x5
+# DevOpsHomework 디렉토리의 모든 파일을 무시
+/*
+
+# tf 디렉토리는 예외 처리
+!/tf/
+
+# tf 디렉토리 내부의 모든 파일은 추적
+!/tf/*
